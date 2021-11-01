@@ -5,4 +5,12 @@ class StaticPagesController < ApplicationController
       # so, we are going to respond with a webpage (defined in HTML)
       render 'index'
     end
+
+    def home
+      render 'home'
+    end
+
+    def demo
+      render 'demo'
+    end
   end
