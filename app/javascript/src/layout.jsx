@@ -4,19 +4,27 @@ import React from 'react';
 const Layout = (props) => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand navbar-light bg-light">
-        <a href="/"><span className="navbar-brand mb-0 h1">React in Rails Demo</span></a>
-        <div className="collapse navbar-collapse">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/demo">Demo</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">Japanese Examples</a>
+    
+    <span class="navbar-text">
+      Dictionary with collaborative collection of real examples
+        </span>
+    
+ 
+<div class="ms-auto">
+      <button type="button" class="btn btn-link px-3 me-2">
+          Login
+        </button>
+        <button type="button" class="btn btn-primary me-3">
+          Sign up for free
+        </button>
+   </div>
+
+  </div>
+</nav>
       <div className="container py-3">
         {props.children}
       </div>
