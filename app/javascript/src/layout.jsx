@@ -19,34 +19,32 @@ const Layout = (props) => {
             <button type="button" class="btn btn-link px-3 me-2">
               Login
             </button>
-            <button type="button" class="btn btn-primary me-3">
+            <button type="button" class="btn btn-outline-dark">
               Sign up for free
             </button>
           </div>
         </div>
       </nav>
 
-      <div className="intro bg-image shadow-2-strong">
+      <div className="intro bg-image">
         <div class="mask" styleName={"background-color: rgba(0, 0, 0, 0.8);"}>
           <div class="container d-flex align-items-center justify-content-center text-center h-100">
-            <div class="text-white">
-              <h5 class="mb-4">Search for a word in order to see translation of a word, sample sentences and add your own example</h5>
-              
-              <a
-                class="btn btn-outline-light btn-lg m-2"
-                href="https://mdbootstrap.com/docs/standard/"
-                target="_blank"
-                role="button"
-              >
-                Search
-              </a>
+            <div class="border">
              
+
+              <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1"><h5 class="mb-4">Search for a word in order to see translation of a word, sample sentences and add your own example</h5></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a word in English or Japanese"></input>
+  </div>
+  <button type="submit" class="btn btn-outline-dark search-button">Search</button>
+</form>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container py-3">{props.children}</div>
+      <div>{props.children}</div>
 
       <footer class="bg-dark text-center text-white">
         <div class="container p-2 pb-0">
