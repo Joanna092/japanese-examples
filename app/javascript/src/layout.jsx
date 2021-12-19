@@ -26,7 +26,7 @@ const Layout = (props) => {
         </div>
       </nav>
 
-      <div className="intro bg-image">
+      <div className="intro">
         <div class="mask" styleName={"background-color: rgba(0, 0, 0, 0.8);"}>
           <div class="container d-flex align-items-center justify-content-center text-center h-100">
             <div class="border">
