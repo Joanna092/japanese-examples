@@ -113,7 +113,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div class="sidebar shadow-3 p-3 mb-5 bg-white rounded">
+      <div class="sidebar shadow-3 p-3 mb-5 bg-custom rounded">
         <div class="text-center">
           <div className="xsidebar">
             <h1>
