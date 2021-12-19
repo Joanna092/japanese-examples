@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import Layout from "./layout";
 import logo from "./corona.jpg";
 
+import "./styles.scss";
+
 const Home = () => (
   <Layout>
     <div class="main-container">
