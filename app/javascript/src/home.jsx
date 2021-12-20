@@ -5,6 +5,7 @@ import Layout from "./layout";
 import logo from "./corona.jpg";
 
 import "./styles.scss";
+import './home.scss';
 
 const Home = () => (
   <Layout>
