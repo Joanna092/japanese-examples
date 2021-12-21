@@ -5,7 +5,7 @@ import Layout from "./layout";
 import logo from "./corona.jpg";
 
 import "./styles.scss";
-import './home.scss';
+import "./home.scss";
 
 const Home = () => (
   <Layout>
@@ -34,17 +34,24 @@ const Home = () => (
                       Full context: https://www.pixiv.net/en/artworks/81119676
                     </p>
                   </div>
-                  <span style={{ textAlign: "right", display: "block" }}>
-                    Added by: Joanna092
-                  </span>
-                  5
-                  <a>
-                    <i class="far fa-thumbs-up"></i>
-                  </a>
-                  130
-                  <a>
-                    <i class="far fa-thumbs-down"></i>
-                  </a>
+
+                  <div className="row">
+                    <div className="col">
+                      5
+                      <a>
+                        <i class="far fa-thumbs-up"></i>
+                      </a>
+                      130
+                      <a>
+                        <i class="far fa-thumbs-down"></i>
+                      </a>
+                    </div>
+
+                    <div className="col-auto">
+                      <p>Added by: Joanna092</p>
+                    </div>
+                  </div>
+
                   <textarea rows="4" className="boxsizingBorder">
                     Type your comment here
                   </textarea>
