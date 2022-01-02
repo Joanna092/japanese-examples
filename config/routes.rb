@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   root to: 'static_pages#home'
   get '/', to: 'static_pages#home'
 
-  get 'demo' => 'static_pages#demo'
+  get 'search' => 'static_pages#search'
 end
