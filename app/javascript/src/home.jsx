@@ -3,12 +3,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Layout from "./layout";
 import logo from "./corona.jpg";
+import BigSearch from "./big_search";
 
 import "./styles.scss";
 import "./home.scss";
 
 const Home = () => (
   <Layout>
+    < BigSearch />
     <div class="main-container">
       <div class="content">
         <div class="container">

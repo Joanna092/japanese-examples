@@ -6,9 +6,11 @@ import logo from "./corona.jpg";
 
 import "./styles.scss";
 import "./search.scss";
+import SmallSearch from "./small_search";
 
 const Search = () => (
   <Layout>
+    <SmallSearch />
     Search results will go here
   </Layout>
 );
