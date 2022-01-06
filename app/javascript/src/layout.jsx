@@ -32,7 +32,7 @@ const Layout = (props) => {
             <div class="border">
              
 
-              <form>
+              <form action="/search">
   <div class="form-group">
     <label for="exampleInputEmail1"><h5 class="mb-4">Search for a word in order to see translation of a word, sample sentences and add your own example</h5></label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a word in English or Japanese"></input>
