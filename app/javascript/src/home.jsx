@@ -10,7 +10,7 @@ import "./home.scss";
 
 const Home = () => (
   <Layout>
-    < BigSearch />
+    <BigSearch />
     <div class="main-container">
       <div class="content">
         <div class="container">
@@ -20,12 +20,10 @@ const Home = () => (
             </div>
             <div className="row">
               <div className="col-7">
-                <div className="x">
-                  <div className="y">
-                    <h1>
-                      <span>Example</span>
-                    </h1>
-                  </div>
+                <div className="example_box">
+                  <h1>
+                    <span>Example</span>
+                  </h1>
                   <div>
                     <p className="float-left">
                       Example: 駆逐（くちく）してやる！ / Kuchiku shite yaru!
@@ -84,12 +82,10 @@ const Home = () => (
               </div>
 
               <div className="col-5">
-                <div className="x">
-                  <div className="y">
-                    <h1>
-                      <span>About the word</span>
-                    </h1>
-                  </div>
+                <div className="example_box">
+                  <h1>
+                    <span>About the word</span>
+                  </h1>
                   <p>Word: 駆逐 / くちく / kuchiku</p>
                   <p>Noun, suru-verb</p>
                   <p>JLPT level: N2</p>
@@ -127,7 +123,7 @@ const Home = () => (
 
       <div class="sidebar shadow-3 p-3 mb-5 bg-custom rounded">
         <div class="text-center">
-          <div className="xsidebar">
+          <div className="sidebar_header">
             <h1>
               <span>New examples</span>
             </h1>
