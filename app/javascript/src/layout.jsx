@@ -5,6 +5,7 @@ import "./styles.scss";
 const Layout = (props) => {
   return (
     <React.Fragment>
+      <div className="main-container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
@@ -28,7 +29,9 @@ const Layout = (props) => {
 
       <div>{props.children}</div>
 
-      <footer class="bg-dark text-center text-white">
+     
+
+      <footer class="footer bg-dark text-center text-white">
         <div class="container p-2 pb-0">
           <section class="mb-2">
             <a
@@ -56,6 +59,7 @@ const Layout = (props) => {
           <a class="text-white">Copyright@2021 Japanese Examples</a>
         </div>
       </footer>
+      </div>
     </React.Fragment>
   );
 };

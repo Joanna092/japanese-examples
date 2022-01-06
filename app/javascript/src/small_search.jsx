@@ -8,9 +8,8 @@ const SmallSearch = (props) => {
   return (
     <React.Fragment>
      
-      <div className="intro">
-        <div class="mask" styleName={"background-color: rgba(0, 0, 0, 0.8);"}>
-          <div class="container d-flex align-items-center justify-content-center text-center h-100">
+      <div className="small_intro">  
+          <div class="container d-flex align-items-center justify-content-center text-center h-100"> 
             <div class="border border_small">
              
               <form action="/search">
@@ -22,7 +21,6 @@ const SmallSearch = (props) => {
 </form>
             </div>
           </div>
-        </div>
       </div>
 
     </React.Fragment>

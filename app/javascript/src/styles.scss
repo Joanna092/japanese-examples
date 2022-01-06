@@ -6,11 +6,13 @@
     filter: grayscale(100%);
     height: 80vh;
     //opacity: 0.2;
+    border-bottom: 1px solid black;
 }
 
 .small_intro {
     filter: grayscale(100%);
     height: 40vh;
+    border-bottom: 1px solid black;
 }
 
 .navbar {
@@ -29,10 +31,6 @@
 
   .search-button {
       margin-top: 10px;
-  }
-
-  .intro {
-      border-bottom: 1px solid black;
   }
 
   .title {
@@ -155,3 +153,17 @@ small {
 .bg-custom {
     background-color: #e1eedd;
 }
+
+.footer {
+    position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+   }
