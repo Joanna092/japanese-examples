@@ -12,9 +12,9 @@ const Search = () => (
   <Layout>
     <SmallSearch />
     <div class="main-container">
-      <h2>Words: 2 found</h2>
+      <h2 class="left">Words: 2 found</h2>
 
-      <div class="wrapper">
+      <div class="wrapper left">
         <div class="box a">わたし、watashi, me</div>
         <div class="box b">
           <h1>私</h1>
@@ -22,7 +22,7 @@ const Search = () => (
         <div class="box c">pronoun, level 1</div>
       </div>
 
-      <div className="sample_sentences">
+      <div className="sample_sentences left">
         <p>Sample sentences:</p>
         <p>
           騒（さわ）がしいホームで誰（だれ）かが私（わたし）の名前（なまえ）を呼（よ）んでいるのが聞（き）こえた。
@@ -34,7 +34,7 @@ const Search = () => (
         <p>I could hear someone calling my name on the noisy platform.</p>
       </div>
 
-      <div className="row">
+      <div className="row left">
         <div className="col">
           <div class="row thumbail_box">
             <div class="col">
@@ -76,7 +76,7 @@ const Search = () => (
 
       <hr style={{ width: "40%" }}></hr>
 
-      <div class="wrapper">
+      <div class="wrapper left">
         <div class="box a">わたし、watashi, me</div>
         <div class="box b">
           <h1>私</h1>
@@ -84,7 +84,7 @@ const Search = () => (
         <div class="box c">pronoun, level 1</div>
       </div>
 
-      <div className="sample_sentences">
+      <div className="sample_sentences left">
         <p>Sample sentences:</p>
         <p>
           騒（さわ）がしいホームで誰（だれ）かが私（わたし）の名前（なまえ）を呼（よ）んでいるのが聞（き）こえた。
@@ -96,7 +96,7 @@ const Search = () => (
         <p>I could hear someone calling my name on the noisy platform.</p>
       </div>
 
-      <div className="row">
+      <div className="row left">
         <div className="col">
           <div class="row thumbail_box">
             <div class="col">
