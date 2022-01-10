@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/', to: 'static_pages#home'
 
   get 'search' => 'static_pages#search'
+  get 'examples' => 'static_pages#examples'
 end

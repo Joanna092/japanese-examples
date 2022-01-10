@@ -5,10 +5,10 @@ import Layout from "./layout";
 import logo from "./corona.jpg";
 
 import "./styles.scss";
-import "./search.scss";
+import "./examples.scss";
 import SmallSearch from "./small_search";
 
-const Search = () => (
+const Examples = () => (
   <Layout>
     <SmallSearch />
     <div class="main-container">
@@ -110,22 +110,12 @@ const Search = () => (
         </div>
 
         <div className="col thumb_auth">
-
-        <a 
-        class="btn btn-outline-dark inline" 
-        style={{
-              display: "block",
-              marginBottom: "15px",
-            }} 
-            href="/examples" 
-            role="button">Link
-            </a>
-
           <button
             type="button"
             class="btn btn-outline-dark inline"
             style={{
               display: "block",
+
               marginBottom: "15px",
             }}
           >
@@ -153,7 +143,7 @@ const Search = () => (
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
-    <Search />,
+    <Examples />,
     document.body.appendChild(document.createElement("div"))
   );
 });
