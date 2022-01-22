@@ -160,7 +160,7 @@ const Home = () => (
             </button>
           </div>
 
-          <div className="xsidebar">
+          <div className="sidebar_header">
             <h1>
               <span>Most liked examples</span>
             </h1>
