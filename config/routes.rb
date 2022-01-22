@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   get 'search' => 'static_pages#search'
   get 'examples' => 'static_pages#examples'
+  get 'new_example' => 'static_pages#new_examples'
 end
