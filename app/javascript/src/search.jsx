@@ -8,7 +8,21 @@ import "./styles.scss";
 import "./search.scss";
 import SmallSearch from "./small_search";
 
-const Search = () => (
+class Search extends React.Component {
+
+  constructor() {
+    super()
+    /*state = {
+    }*/
+    this.relocateExamples = this.relocateExamples.bind(this)
+  }
+
+  relocateExamples() {
+    window.location = "/examples"
+  }
+
+  render () {
+    return (
   <Layout>
     <SmallSearch />
     <div class="main-container">
@@ -50,10 +64,10 @@ const Search = () => (
         <div className="col thumb_auth">
           <button
             type="button"
+            onClick={this.relocateExamples}
             class="btn btn-outline-dark inline"
             style={{
               display: "block",
-
               marginBottom: "15px",
             }}
           >
@@ -111,18 +125,9 @@ const Search = () => (
 
         <div className="col thumb_auth">
 
-        <a 
-        class="btn btn-outline-dark inline" 
-        style={{
-              display: "block",
-              marginBottom: "15px",
-            }} 
-            href="/examples" 
-            role="button">Link
-            </a>
-
           <button
             type="button"
+            onClick={this.relocateExamples}
             class="btn btn-outline-dark inline"
             style={{
               display: "block",
@@ -149,7 +154,8 @@ const Search = () => (
       <hr style={{ width: "40%" }}></hr>
     </div>
   </Layout>
-);
+)}}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
@@ -157,3 +163,5 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(document.createElement("div"))
   );
 });
+
+
