@@ -15,10 +15,15 @@ class Search extends React.Component {
     /*state = {
     }*/
     this.relocateExamples = this.relocateExamples.bind(this)
+    this.relocateNew = this.relocateNew.bind(this)
   }
 
   relocateExamples() {
     window.location = "/examples"
+  }
+
+  relocateNew() {
+    window.location = "/new_example"
   }
 
   render () {
@@ -76,6 +81,7 @@ class Search extends React.Component {
 
           <button
             type="button"
+            onClick={this.relocateNew}
             class="btn btn-outline-dark inline"
             style={{
               display: "block",
@@ -140,6 +146,7 @@ class Search extends React.Component {
           <button
             type="button"
             class="btn btn-outline-dark inline"
+            onClick={this.relocateNew}
             style={{
               display: "block",
 
