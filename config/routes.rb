@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get 'sentence_added' => 'static_pages#sentence_added'
   get 'examples' => 'static_pages#examples'
   get 'new_example' => 'static_pages#new_examples'
+  get 'profile' => 'static_pages#profile'
 end
