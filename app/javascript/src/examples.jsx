@@ -165,9 +165,23 @@ const Examples = () => (
             </p>
           </div>
         </div>
-      </div>
 
-      <hr style={{ width: "40%" }}></hr>
+        <hr style={{ width: "40%" }}></hr>
+
+        <button
+          type="button"
+          class="btn btn-outline-dark"
+          style={{
+            display: "block",
+            margin: "0 auto",
+            padding: "20px",
+            marginTop: "20px",
+            width: "30%",
+          }}
+        >
+          Add your own example
+        </button>
+      </div>
     </div>
   </Layout>
 );
