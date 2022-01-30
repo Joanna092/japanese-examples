@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get 'examples' => 'static_pages#examples'
   get 'new_example' => 'static_pages#new_examples'
   get 'profile' => 'static_pages#profile'
+  get 'login' => 'static_pages#login'
+  get 'signup' => 'static_pages#signup'
 end
