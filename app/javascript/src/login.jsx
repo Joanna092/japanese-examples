@@ -8,7 +8,39 @@ import "./login.scss";
 function Login() {
   return (
     <Layout>
-       Login
+      <div className="main-container">
+        <header>
+          <h2>Member login</h2>
+        </header>
+
+        <form class="form">
+          <div class="input_text">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Username"
+            />
+          </div>
+
+          <div class="input_text">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+          </div>
+
+          <br />
+
+          <div class="button_field">
+            <button type="submit" name="btn_submit" class="form_button">
+              LOGIN
+            </button>
+          </div>
+        </form>
+      </div>
     </Layout>
   );
 }
