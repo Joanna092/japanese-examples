@@ -1,14 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Layout from "./layout";
-import logo from "./corona.jpg";
 import "./styles.scss";
 import "./about.scss";
 
 function Contact() {
   return (
     <Layout>
-    about
+      <header>
+        <h3>About</h3>
+      </header>
+      <div className="description">
+        <p>
+          Here will be some information about author of the project,
+          contributors, API used etc{" "}
+        </p>
+      </div>
     </Layout>
   );
 }
