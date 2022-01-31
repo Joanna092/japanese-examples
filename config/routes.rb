@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get 'profile' => 'static_pages#profile'
   get 'login' => 'static_pages#login'
   get 'signup' => 'static_pages#signup'
+  get 'about' => 'static_pages#about'
+  get 'contact' => 'static_pages#contact'
 end
