@@ -10,7 +10,8 @@ function Login() {
     <Layout>
       <div className="main-container">
         <header>
-          <h2>Member login</h2>
+          <h2>Welcome back!</h2>
+          <p>Please enter your login and password</p>
         </header>
 
         <form class="form">

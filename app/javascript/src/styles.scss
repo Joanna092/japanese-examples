@@ -11,10 +11,20 @@
 //navbar
 
 .navbar {
-    box-shadow: none !important;
-    border-bottom: 1px solid black;
+  //  box-shadow: none !important;
+  //  border-bottom: 1px solid black;
     padding: 30px;
   }
+
+.nav-links {
+   color: #4f4f4f;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
 
 //search form
 
