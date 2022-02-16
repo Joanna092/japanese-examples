@@ -29,11 +29,11 @@ const Layout = (props) => {
 
         <div>{props.children}</div>
 
-        <footer class="footer bg-dark text-center text-white">
+        <footer class="footer text-center text-black">
           <div class="container p-2 pb-0">
             <section class="mb-2">
               <a
-                class="btn btn-outline-light btn-lg m-2"
+                class="btn footer_buttons btn-lg m-2"
                 role="button"
                 rel="nofollow"
                 target="_blank"
@@ -41,7 +41,7 @@ const Layout = (props) => {
                 About
               </a>
               <a
-                class="btn btn-outline-light btn-lg m-2"
+                class="btn footer_buttons btn-lg m-2"
                 target="_blank"
                 role="button"
               >
