@@ -15,20 +15,26 @@ function Contact() {
 <div class="container">
   <form className="form">
 
-     <div>
-    <label className="data">Name</label>
-    <input type="text" name="name" placeholder="Your name.."/>
+  <div class="input_text">
+    <input type="text" name="name" placeholder="Your name"/>
     </div> 
 
-    <div> 
-    <label className="data">Email</label>
-    <input type="text" name="email" placeholder="Your email.."/>
+    <div class="input_text">
+    <input type="text" name="email" placeholder="Your email"/>
     </div> 
 
-    <label>Your question or feedback</label>
-    <textarea id="subject" placeholder="Write something.." style={{height:"200px"}}></textarea>
+    <div class="input_text">
+    <textarea 
+    id="subject" 
+    placeholder="Your question or feedback" 
+    style={{height:"200px"}}
+    >  
+    </textarea>
+    </div>
 
-    <input type="submit" value="Submit"/>
+     <button type="submit" name="btn_submit" class="form_button">
+              SUBMIT
+            </button>
   </form>
 </div>
 </div>

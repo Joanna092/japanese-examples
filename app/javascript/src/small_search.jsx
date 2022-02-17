@@ -8,7 +8,7 @@ const SmallSearch = (props) => {
     <React.Fragment>
       <div className="small_intro">
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
-          <div class="border border_small">
+          <div class="border form border_small">
             <form action="/search">
               <div class="form-group">
                 <label for="exampleInputEmail1">
@@ -17,15 +17,17 @@ const SmallSearch = (props) => {
                     sample sentences and add your own example
                   </h5>
                 </label>
+                <div class="input_text">
                 <input
-                  type="email"
-                  class="form-control"
+                  type="text"
+                  //class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Enter a word in English or Japanese"
                 ></input>
+                </div>
               </div>
-              <button type="submit" class="btn btn-outline-dark search-button">
+              <button type="submit" class="form_button">
                 Search
               </button>
             </form>

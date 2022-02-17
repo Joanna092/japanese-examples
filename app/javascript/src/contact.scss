@@ -15,20 +15,43 @@ header {
     border-radius: 7px;
   }
 
+
   input[type=textarea], [type=submit]{
     width: 100%;
 }
 
-input[type=text] {
-     margin: 8px 0;
-     box-sizing: border-box;
-     -webkit-transition: 0.5s;
-     transition: 0.5s;
-     outline: none;
-   }
+input[type=textarea] {
+  width: 100%;
+  outline: none;
+}
 
 .data {
     display: inline-block;
     width: 50px;
     text-align: left;
   }
+
+  input {
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.input_text {
+  font-size: 18px;
+  padding-top: 10px;
+  background: #fafafa;
+  color: #636363;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+  margin-bottom: 45px; 
+}
+
+.form_button {
+  padding: 10px 20px;
+  min-width: 300px;
+  background-color: #9e8c7b;
+  border-radius:7px;
+  cursor: pointer;
+  color: #000;
+}

@@ -17,52 +17,57 @@ function NewExample() {
 
   return (
       <Layout>
-          <div className="example_form">
+          <div className="main-container">
+          <header>
           <h1>Add your own example</h1>
-    <form onSubmit={handleSubmit}>
+        </header>
+    <form class="form" onSubmit={handleSubmit}>
 
-        <div className="input_field">
-      <label>Word: </label>
+        <div className="input_text">
         <input 
           type="text" 
+          placeholder="Word"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         
       </div>
 
-      <div className="input_field">
-      <label>Sentence: </label>
+      <div className="input_text">
         <input 
           type="text" 
+          placeholder="Sentence"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
      
       </div>
 
-      <div className="input_field">
-      <label>Source: </label>
+      <div className="input_text">
         <input 
           type="text" 
+          placeholder="Source"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
      
       </div>
 
-      <div className="input_field">
+  <div className="wrapper">
+    <div className="div1">
       <label>Picture:</label>
+      </div>
+      <div className="div2">
         <input 
-          type="text" 
+          type="file" 
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-      
-      </div>
-
+        </div>
+ </div>
+    
       <div>
-      <input type="submit" class="btn btn-outline-dark" value="Submit" />
+      <input type="submit" class="form_button" value="Submit" />
       </div>
 
     </form>
