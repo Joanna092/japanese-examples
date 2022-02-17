@@ -13,7 +13,7 @@ function Profile() {
         <p>Username: XXX</p>
         <button
           type="button"
-          class="btn btn-outline-dark"
+          class="form_button"
           style={{
             padding: "15px",
             width: "150px",
@@ -68,10 +68,10 @@ function Profile() {
 
               <button
           type="button"
-          class="btn btn-outline-dark"
+          class="form_button"
           style={{
             width: "200px",
-            marginTop: "5px"
+            marginTop: "15px"
           }}
         >Go to the word view</button>
             </table>
@@ -82,7 +82,7 @@ function Profile() {
           <div className="col-2">
           <button
           type="button"
-          class="btn btn-outline-dark"
+          class="btn btn-outline-dark delete_button"
           style={{
             width: "200px",
             paddingTop: "20px",
@@ -92,7 +92,12 @@ function Profile() {
           </div>
         </div>
 
-        <hr />
+        <hr 
+        style={{
+          width: "90%",
+          marginTop: "50px",
+          marginBotttom: "50px",
+        }}/>
 
         <div className="row">
           <div className="col-7">
@@ -138,10 +143,10 @@ function Profile() {
 
               <button
           type="button"
-          class="btn btn-outline-dark"
+          class="form_button"
           style={{
             width: "200px",
-            marginTop: "5px"
+            marginTop: "15px"
           }}
         >Go to the word view</button>
             </table>
@@ -152,7 +157,7 @@ function Profile() {
           <div className="col-2">
           <button
           type="button"
-          class="btn btn-outline-dark"
+          class="btn btn-outline-dark delete_button"
           style={{
             width: "200px",
             paddingTop: "20px",
