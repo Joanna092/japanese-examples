@@ -70,7 +70,7 @@ const Examples = () => (
             <div class="d-flex justify-content-left row">
               <div class="col-md-8">
                 <div class="d-flex flex-column comment-section">
-                  <div class="bg-white p-2">
+                  <div class="p-2">
                     <div class="d-flex flex-row user-info">
                       {" "}
                       {/* <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40" /> */}
@@ -93,7 +93,7 @@ const Examples = () => (
                       </p>
                     </div>
                   </div>
-                  <div class="bg-white p-2">
+                  <div class="p-2">
                     <div class="d-flex flex-row user-info">
                       {/* <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40" /> */}
                       <div class="d-flex flex-column justify-content-start ml-2">
@@ -115,7 +115,7 @@ const Examples = () => (
                       </p>
                     </div>
                   </div>
-                  <div class="bg-white">
+                  
                     <div class="d-flex flex-row fs-12">
                       <div class="like p-2 cursor">
                         <span class="ml-1">Comment</span>
@@ -124,21 +124,21 @@ const Examples = () => (
                         <span class="ml-1">See all comments</span>
                       </div>
                     </div>
-                  </div>
-                  <div class="bg-light p-2">
+                  
+                  <div class="p-2">
                     <div class="d-flex flex-row align-items-start">
                       {/* <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40" /> */}
                       <textarea class="form-control ml-1 shadow-none textarea"></textarea>
                     </div>
                     <div class="mt-2 text-right">
                       <button
-                        class="btn btn-primary btn-sm shadow-none"
+                        class="btn btn-sm shadow-none"
                         type="button"
                       >
                         Post comment
                       </button>
                       <button
-                        class="btn btn-outline-primary btn-sm ml-1 shadow-none"
+                        class="btn btn-outline-dark btn-sm ml-1 shadow-none"
                         type="button"
                       >
                         Cancel
@@ -170,7 +170,7 @@ const Examples = () => (
 
         <button
           type="button"
-          class="btn btn-outline-dark"
+          class="form_button"
           style={{
             display: "block",
             margin: "0 auto",

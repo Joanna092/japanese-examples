@@ -25,7 +25,7 @@ p {
   width: 20%;
   //  grid-gap: 2px;
   //grid-template-columns: 100px 100px 100px;
-  background-color: #fff;
+  //background-color: #fff;
   color: #444;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -90,4 +90,13 @@ p {
 
 .text-right {
   text-align: right;
+}
+
+.form_button {
+  padding: 8px 20px;
+  width: 200px;
+  background-color: #9e8c7b;
+  border-radius:7px;
+  cursor: pointer;
+  color: #000;
 }
