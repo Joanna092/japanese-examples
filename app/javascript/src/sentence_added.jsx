@@ -57,32 +57,17 @@ function Added() {
 
 <div className="buttons">
         <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style={{
-                   // display: "block",
-                   // margin: "0 auto",
-                    padding: "20px",
-                    marginTop: "20px",
-                    marginRight: "10px",
-                    width: "20%",
-                  }}
+                  //type="button"
+                  class="form_button"
                 >
-                  Main page
+                  MAIN PAGE
                 </button>
 
                 <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style={{
-                   // display: "block",
-                  //  margin: "0 auto",
-                    padding: "20px",
-                    marginTop: "20px",
-                    width: "20%",
-                  }}
+                  //type="button"
+                  class="form_button"
                 >
-                  Your profile
+                  YOUR PROFILE
                 </button>
                 </div>
 
