@@ -1,10 +1,28 @@
 .intro {
-    //  background-image: url("japanese.jpg");
-    // background-color: grey;
+
+  background-color: rgba(255, 255, 255, 1);
+//background-image:  url(https://images.pexels.com/photos/950902/pexels-photo-950902.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=600);
+
+background-image: url("jap4.jpg");
+
+  background-position: center; /* Center the image */
+
+  //background-repeat: repeat; /* Do not repeat the image */
+  //background-repeat: no-repeat; /* Do not repeat the image */
+ // background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+  //    background-image: url("jap3.jpg");
+  //    background-color: #eee; /* Used if the image is unavailable */
+      //height: 500px; /* You must set a specified height */
+  //    background-position: center; /* Center the image */
+  //    background-repeat: no-repeat; /* Do not repeat the image */
+  //    background-size: cover; /* Resize the background image to cover the entire container */
+
       filter: grayscale(0);
       height: 80vh;
-      //opacity: 0.2;
-      border-bottom: 1px solid black;
+    
   }
 
   .border_big {

@@ -12,16 +12,16 @@ const Layout = (props) => {
               Japanese Examples
             </a>
 
-            <span class="nav-links">
+            <span class="nav-text">
               Dictionary with collaborative collection of real examples
             </span>
 
             <div class="ms-auto">
-              <button type="button" class="btn btn-link px-3 me-2 nav-links ">
-                Login
+            <button type="button" class="signup_button test btn btn-link px-3 me-2  nav-links">
+                Sign up
               </button>
-              <button type="button" class="btn btn-outline-light nav-links">
-                Sign up for free
+              <button type="button" class="login_button test btn btn-link px-3 me-2 nav-links"> 
+                Login
               </button>
             </div>
           </div>

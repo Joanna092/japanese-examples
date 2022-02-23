@@ -21,9 +21,37 @@ body {
     padding: 30px;
   }
 
+.nav-text {
+  color: #4f4f4f;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.signup_button {
+  width: 100px;
+  border: 2px solid rgb(127, 208, 221);
+}
+
+.login_button {
+  width: 100px;
+  background: #fff;
+  border: 2px solid rgb(127, 208, 221);
+}
+
 .nav-links {
-   color: #4f4f4f;
    font-family: 'Nunito Sans', sans-serif;
+    
+    border-radius: 6px;
+    
+    outline: none;
+    cursor: pointer;
+    color: #4f4f4f;
+    transition: 0.8s !important;
+}
+
+.nav-links:hover {
+  background-color: rgba(127, 208, 221, 0.38);
+ color: #114084;
+ //font-weight: bold;
 }
 
 .navbar-brand {
