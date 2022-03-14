@@ -1,5 +1,6 @@
 body {
   background: #eee;
+ //background-color: #fbfbfb !important;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -28,13 +29,14 @@ body {
 
 .signup_button {
   width: 100px;
-  border: 2px solid rgb(127, 208, 221);
+  background: #d5e2f0;
+  border: 1px solid rgb(127, 208, 221);
 }
 
 .login_button {
   width: 100px;
   background: #fff;
-  border: 2px solid rgb(127, 208, 221);
+  border: 1px solid rgb(127, 208, 221);
 }
 
 .nav-links {

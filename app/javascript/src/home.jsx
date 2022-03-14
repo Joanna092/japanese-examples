@@ -59,7 +59,7 @@ const Home = () => (
                     alt="Logo"
                   />
                   <p>
-                    Full context: https://www.pixiv.net/en/artworks/81119676
+                    <b>Full context:</b> https://www.pixiv.net/en/artworks/81119676
                   </p>
                 </div>
 
@@ -148,6 +148,7 @@ const Home = () => (
                     display: "block",
                     margin: "0 auto",
                     marginBottom: "15px",
+                    marginTop: "17px"
                   }}
                 >
                   See more examples with this word

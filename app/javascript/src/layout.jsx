@@ -17,11 +17,11 @@ const Layout = (props) => {
             </span>
 
             <div class="ms-auto">
+            <button type="button" class="login_button test btn btn-link px-3 me-2 nav-links"> 
+                Login
+              </button>
             <button type="button" class="signup_button test btn btn-link px-3 me-2  nav-links">
                 Sign up
-              </button>
-              <button type="button" class="login_button test btn btn-link px-3 me-2 nav-links"> 
-                Login
               </button>
             </div>
           </div>
