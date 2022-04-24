@@ -1,6 +1,9 @@
 body {
-  background: #eee;
- //background-color: #fbfbfb !important;
+ // background: #eee;
+
+ background: rgb(251,251,251);
+ background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(238,238,238,1) 87%);
+
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -30,6 +33,7 @@ body {
 .signup_button {
   width: 100px;
   background: #d5e2f0;
+
   border: 1px solid rgb(127, 208, 221);
 }
 
