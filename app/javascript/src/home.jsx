@@ -1,3 +1,5 @@
+//https://stackblitz.com/edit/react-7s1go9  Add 'active' class on click
+
 // home.jsx
 import React from "react";
 import ReactDOM from "react-dom";
@@ -15,14 +17,20 @@ class Home extends React.Component {
       button_one: true,
       button_two: false,
       button_three: false,
+      selection: "button_one",
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(e) {
-    //     Setting state and a callback function
+    //Change colors of the active button
+    this.setState({
+      selection: e.target.id,
+    });
+
+    //Setting state and a callback function
     if (e.target.id === "button_one") {
-      this.setState({ button_one: true});
+      this.setState({ button_one: true });
       this.setState({ button_two: false });
       this.setState({ button_three: false });
     }
@@ -39,6 +47,8 @@ class Home extends React.Component {
   }
 
   render() {
+    const { selection } = this.state;
+
     return (
       <Layout>
         <BigSearch />
@@ -50,7 +60,11 @@ class Home extends React.Component {
                 id="button_one"
                 onClick={this.handleClick}
                 type="button"
-                class="example_button btn"
+                className={
+                  selection === "button_one"
+                    ? "example_button btn active"
+                    : "example_button btn"
+                }
               >
                 Example of the week
               </button>
@@ -58,7 +72,11 @@ class Home extends React.Component {
                 id="button_two"
                 onClick={this.handleClick}
                 type="button"
-                class="example_button btn"
+                className={
+                  selection === "button_two"
+                    ? "example_button btn active"
+                    : "example_button btn"
+                }
               >
                 New examples
               </button>
@@ -66,7 +84,11 @@ class Home extends React.Component {
                 id="button_three"
                 onClick={this.handleClick}
                 type="button"
-                class="example_button btn"
+                className={
+                  selection === "button_three"
+                    ? "example_button btn active"
+                    : "example_button btn"
+                }
               >
                 Most liked examples
               </button>
