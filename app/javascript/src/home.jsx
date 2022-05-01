@@ -6,6 +6,8 @@ import ReactDOM from "react-dom";
 import Layout from "./layout";
 import logo from "./corona2.jpg";
 import BigSearch from "./big_search";
+import NewExamples from "./new_examples";
+import BestExamples from "./best_examples";
 
 import "./styles.scss";
 import "./home.scss";
@@ -101,6 +103,12 @@ class Home extends React.Component {
                     <div class="text-center main-examples">
                       <div className="title">Example of the week</div>
 
+
+
+                      <BestExamples /> 
+
+
+              {/* 
                       <div className="row">
                         <div className="col-7">
                           <div className="example_box shadow-md">
@@ -243,6 +251,11 @@ class Home extends React.Component {
                           </button>
                         </div>
                       </div>
+
+*/}
+
+
+
                     </div>
                   </div>
                 </div>
@@ -255,6 +268,11 @@ class Home extends React.Component {
                     <div class="text-center main-examples">
                       <div className="title">New Examples</div>
 
+<NewExamples />
+
+              {/*
+              
+              
                       <div className="row">
                         <div className="col-7">
                           <div className="example_box shadow-md">
@@ -397,6 +415,12 @@ class Home extends React.Component {
                           </button>
                         </div>
                       </div>
+
+
+  */}
+
+
+
                     </div>
                   </div>
                 </div>
