@@ -69,6 +69,24 @@ const Examples = () => (
 
             <div class="d-flex justify-content-left row">
               <div class="col-md-8">
+                <div class="p-2">
+                  <div class="d-flex flex-row align-items-start">
+                    {/* <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40" /> */}
+                    <textarea class="form-control ml-1 shadow-none textarea"></textarea>
+                  </div>
+                  <div class="mt-2 text-right">
+                    <button class="btn btn-sm shadow-none" type="button">
+                      Post comment
+                    </button>
+                    <button
+                      class="btn btn-outline-dark btn-sm ml-1 shadow-none"
+                      type="button"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+
                 <div class="d-flex flex-column comment-section">
                   <div class="p-2">
                     <div class="d-flex flex-row user-info">
@@ -115,36 +133,6 @@ const Examples = () => (
                       </p>
                     </div>
                   </div>
-                  
-                    <div class="d-flex flex-row fs-12">
-                      <div class="like p-2 cursor">
-                        <span class="ml-1">Comment</span>
-                      </div>
-                      <div class="like p-2 cursor">
-                        <span class="ml-1">See all comments</span>
-                      </div>
-                    </div>
-                  
-                  <div class="p-2">
-                    <div class="d-flex flex-row align-items-start">
-                      {/* <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40" /> */}
-                      <textarea class="form-control ml-1 shadow-none textarea"></textarea>
-                    </div>
-                    <div class="mt-2 text-right">
-                      <button
-                        class="btn btn-sm shadow-none"
-                        type="button"
-                      >
-                        Post comment
-                      </button>
-                      <button
-                        class="btn btn-outline-dark btn-sm ml-1 shadow-none"
-                        type="button"
-                      >
-                        Cancel
-                      </button>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -163,6 +151,12 @@ const Examples = () => (
                 <i class="far fa-thumbs-down"></i>
               </a>
             </p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row fs-12">
+          <div class="like p-2 cursor">
+            <span class="ml-1">See all comments</span>
           </div>
         </div>
 
