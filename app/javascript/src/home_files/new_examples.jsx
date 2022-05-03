@@ -247,6 +247,20 @@ const NewExamples = (props) => {
 
       <hr /> 
 
+      <button
+            type="button"
+            class="form_button page_content"
+            style={{
+              display: "block",
+              float: "right",
+              //margin: "0 auto",
+              padding: "20px",
+              marginTop: "20px",
+            }}
+          >
+            See more
+          </button>
+
     </React.Fragment>
   );
 };
