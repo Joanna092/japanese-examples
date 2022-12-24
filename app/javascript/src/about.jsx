@@ -13,7 +13,7 @@ function Contact() {
       <div className="description">
         <p>
           Here will be some information about author of the project,
-          contributors, API used etc{" "}
+          contributors, creation date, API used etc{" "}
         </p>
       </div>
     </Layout>
