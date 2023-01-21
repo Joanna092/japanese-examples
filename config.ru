@@ -4,9 +4,5 @@
 
 require_relative 'config/environment'
 
-require ::File.expand_path('config/environment',  __dir__)
-run Rails.application
-
-
 run Rails.application
 Rails.application.load_server
