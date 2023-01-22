@@ -22,14 +22,17 @@
   //  margin-right: 30px;
 }
 
+
 .example_box {
   text-align: left;
   padding: 20px;
   border-radius: 25px;
-  background-color: #fff;
   box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.18);
   border: 1px solid #e9ecee !important;
-}
+  background-color: #fafafa;
+  border-radius: 8px;
+  }
+
 
 .example_box h1 {
   text-align: center;
