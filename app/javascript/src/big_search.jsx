@@ -1,6 +1,7 @@
 // layout.jsx
 import React from "react";
 import "./big_search.scss";
+import "./styles.scss";
 
 const BigSearch = (props) => {
   return (

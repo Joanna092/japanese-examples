@@ -121,8 +121,8 @@ const WeekExample = (props) => {
             </table>
 
             <button
-              type="button"
-              class="form_button page_content"
+               type="submit"
+               class="form_button "
               style={{
                 display: "block",
                 margin: "0 auto",
@@ -134,8 +134,8 @@ const WeekExample = (props) => {
             </button>
           </div>
           <button
-            type="button"
-            class="form_button page_content"
+             type="submit"
+             class="form_button "
             style={{
               display: "block",
               margin: "0 auto",
