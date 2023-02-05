@@ -59,6 +59,7 @@ const WeekExample = (props) => {
               </div>
             </div>
 
+{/*
             <textarea rows="4" className="boxsizingBorder">
               Type your comment here
             </textarea>
@@ -85,6 +86,9 @@ const WeekExample = (props) => {
                 <a class="reply">Reply</a>
               </div>
             </div>
+*/}
+
+
           </div>
         </div>
 
