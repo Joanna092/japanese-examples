@@ -10,6 +10,8 @@ const BestExamples = (props) => {
      <p className="number">1</p>
 
 <div className="row">
+
+
   <div className="col-7">
     <div className="example_box shadow-md">
       <h1>Example</h1>
@@ -62,6 +64,7 @@ const BestExamples = (props) => {
       </div>
     </div>
   </div>
+
 
   <div className="col-5">
     <div className="example_box shadow-md">
