@@ -42,6 +42,25 @@ const WeekExample = (props) => {
               </p>
             </div>
 
+
+            <div class="vote-container">
+  <button class="vote-btn upvote">
+    <i class="fa fa-thumbs-up"></i>
+    <span class="vote-count">0</span>
+  </button>
+  <button class="vote-btn downvote">
+    <i class="fa fa-thumbs-down"></i>
+    <span class="vote-count">0</span>
+  </button>
+  <button class="comment-btn">
+    <i class="fa fa-comment"></i>
+    <span class="comment-count">0</span>
+  </button>
+</div>
+
+
+
+{/*
             <div className="row">
               <div className="col">
                 5
@@ -58,6 +77,8 @@ const WeekExample = (props) => {
                 <p>Added by: Joanna092</p>
               </div>
             </div>
+  */}
+
 
 {/*
             <textarea rows="4" className="boxsizingBorder">
