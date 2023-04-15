@@ -4,6 +4,7 @@ import "./best_examples.scss";
 import "../styles.scss";
 import "../home.scss";
 
+
 const BestExamples = (props) => {
   return (
     <React.Fragment>
@@ -251,7 +252,7 @@ const BestExamples = (props) => {
 
 <button
       type="button"
-      class="form_button page_content"
+      class="form_button"
       style={{
         display: "block",
         float: "right",
