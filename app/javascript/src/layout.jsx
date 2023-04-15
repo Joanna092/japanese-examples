@@ -27,10 +27,11 @@ const Layout = (props) => {
           </div>
         </nav>
 
-        <div>{props.children}</div>
+        <div className="content">{props.children}</div>
+
 
         <footer class="footer text-center text-black">
-          <div class="container p-2 pb-0">
+          <div class="container p-2 pb-0"> 
             <section class="mb-2">
               <a
                 class="btn footer_buttons btn-lg m-2"
@@ -54,9 +55,10 @@ const Layout = (props) => {
             class="text-center p-3"
             styleName={"backgroundColor: rgba(0, 0, 0, 0.2);"}
           >
-            <a class="text-white">Copyright@2021 Japanese Examples</a>
+            <a class="text-white">Copyright@2023 Japanese Examples</a>
           </div>
         </footer>
+
       </div>
     </React.Fragment>
   );
