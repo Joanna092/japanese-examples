@@ -28,7 +28,7 @@ const SmallSearch = (props) => {
                 </div>
               </div>
               <button type="submit" class="form_button">
-                Search
+                SEARCH
               </button>
             </form>
           </div>
