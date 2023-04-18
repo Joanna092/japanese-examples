@@ -73,7 +73,7 @@ class Search extends React.Component {
               <button
                 type="button"
                 onClick={this.relocateExamples}
-                class="search_button btn"
+                class="search_button"
                 style={{
                   display: "block",
                   marginBottom: "15px",
@@ -85,7 +85,7 @@ class Search extends React.Component {
               <button
                 type="button"
                 onClick={this.relocateNew}
-                class="search_button btn"
+                class="search_button"
                 style={{
                   display: "block",
                   marginBottom: "15px",
@@ -138,7 +138,7 @@ class Search extends React.Component {
               <button
                 type="button"
                 onClick={this.relocateExamples}
-                class="search_button btn"
+                class="search_button"
                 style={{
                   display: "block",
                   marginBottom: "15px",
@@ -149,7 +149,7 @@ class Search extends React.Component {
 
               <button
                 type="button"
-                class="search_button btn"
+                class="search_button"
                 onClick={this.relocateNew}
                 style={{
                   display: "block",
